@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgs"
+    tools:context="com.home.deliver.deliveryupdate.NewDeliveryData">
+
+    <EditText
+        android:id="@+id/editTextname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Enter Name"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="55dp"
+        android:layout_below="@+id/textViewaddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:text="Proceed"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="230dp"
+        android:layout_marginBottom="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewaddress"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:gravity="center"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="195dp"
+        android:layout_height="60dp"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:text="Pick a location via map"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/editTextname"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

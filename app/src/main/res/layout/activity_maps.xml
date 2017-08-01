@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.home.deliver.deliveryupdate.oldrecycleractivity.DeliverListActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        tools:context="com.home.deliver.deliveryupdate.MapsActivity"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/CoName"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#EEffEE"
+        android:background="@color/colorPrimaryDark"
+        android:text="Consignee's name"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
